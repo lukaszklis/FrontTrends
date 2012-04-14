@@ -110,7 +110,6 @@ body {
 }
 
 .logo .right {
-  background: #96262b;
   text-align: left;
   -webkit-transform: matrix(1, -0.13, 0, 1, 0, 0);
 }
