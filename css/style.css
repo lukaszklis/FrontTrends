@@ -55,22 +55,23 @@ body {
   padding: 10px;
   background: #fff;
   font-weight: bold;
+  overflow: hidden;
   -webkit-perspective: 150;
 }
 
 .logo .inner {
-  -webkit-transform: rotateX(-8deg);
+  -webkit-transform: rotateX(-11deg);
 }
 
 .logo .left,
 .logo .right {
   position: relative;
   z-index: 2;
-  margin-top: 41px;
+  margin-top: 36px;
   color: #fff;
   font-size: 360px;
   font-weight: bold;
-  line-height: 340px;
+  line-height: 380px;
 }
 
 .logo .left:after,
@@ -88,7 +89,7 @@ body {
 .logo .back {
   float: left;
   width: 220px;
-  height: 350px;
+  height: 400px;
 }
 
 .logo .left {
@@ -127,12 +128,17 @@ body {
   -webkit-transform: skewY(-5deg);
 }
 
+.logo span {
+  display: inline-block;
+  -webkit-transform: scale(1, 1.2);
+}
+
 .logo .back {
   position: absolute;
   top: 16px;
   left: 0;
   background: #96262b;
-  -webkit-transform: matrix(1, -0.09, 0, 1, 0, 0);
+  -webkit-transform: matrix(1, -0.05, 0, 1, 0, 0);
 }
 
 
