@@ -1,0 +1,126 @@
+/* =============================================================================
+   HTML5 Boilerplate CSS: h5bp.com/css
+   ========================================================================== */
+
+footer, header { display: block; }
+
+html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+html, button, input, select, textarea { font-family: sans-serif; color: #222; }
+body { margin: 0; font-size: 1em; line-height: 1.4; }
+
+::-moz-selection { background: #ba282e; color: #fff; text-shadow: none; }
+::selection { background: #ba282e; color: #fff; text-shadow: none; }
+
+a { color: #ba282e; }
+a:visited { color: #96262b; }
+a:hover { color: #96262b; }
+a:focus { outline: thin dotted; }
+a:hover, a:active { outline: 0; }
+
+b, strong { font-weight: bold; }
+small { font-size: 85%; }
+
+sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
+sup { top: -0.5em; }
+sub { bottom: -0.25em; }
+
+ul, ol { margin: 1em 0; padding: 0 0 0 40px; }
+dd { margin: 0 0 0 40px; }
+nav ul, nav ol { list-style: none; list-style-image: none; margin: 0; padding: 0; }
+
+img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; }
+
+
+/* ===== Primary Styles ========================================================
+   Author: Łukasz Kliś
+   ========================================================================== */
+
+body {
+  background: url(../img/bg.png) #ebebeb;
+}
+
+.wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 460px;
+  height: 460px;
+  margin-left: -200px;
+  margin-top: -230px;
+}
+
+.logo {
+  position: relative;
+  height: 355px;
+  padding: 10px;
+  background: #fff;
+  font-weight: bold;
+  overflow: hidden;
+  -webkit-perspective: 150;
+}
+
+.logo .inner {
+  -webkit-transform: rotateX(-8deg);
+}
+
+.logo .left,
+.logo .right {
+  position: relative;
+  z-index: 2;
+  margin-top: 40px;
+  color: #fff;
+  font-size: 360px;
+  font-weight: bold;
+  line-height: 330px;
+}
+
+.logo .left,
+.logo .right,
+.logo .back {
+  float: left;
+  width: 220px;
+  height: 350px;
+}
+
+.logo .left {
+  background: #ba282e;
+  text-align: right;
+  -webkit-transform: matrix(1, 0.1, 0, 1, 0, 0);
+}
+
+.logo .left span {
+  margin-right: -9px;
+}
+
+.logo .right {
+  background: #96262b;
+  text-align: left;
+  -webkit-transform: matrix(1, -0.1, 0, 1, 0, 0);
+}
+
+.logo .right span {
+  margin-left: -5px;
+}
+
+.logo .back {
+  position: absolute;
+  top: 16px;
+  left: 0;
+  background: #96262b;
+  -webkit-transform: matrix(1, -0.1, 0, 1, 0, 0);
+}
+
+
+/* =============================================================================
+   Non-Semantic Helper Classes
+   ========================================================================== */
+
+.ir { display: block; border: 0; text-indent: -999em; overflow: hidden; background-color: transparent; background-repeat: no-repeat; text-align: left; direction: ltr; *line-height: 0; }
+.ir br { display: none; }
+.hidden { display: none !important; visibility: hidden; }
+.visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus { clip: auto; height: auto; margin: 0; overflow: visible; position: static; width: auto; }
+.invisible { visibility: hidden; }
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
