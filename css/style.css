@@ -69,7 +69,7 @@ body {
   z-index: 2;
   margin-top: 36px;
   color: #fff;
-  font-size: 360px;
+  font-size: 350px;
   font-weight: bold;
   line-height: 380px;
 }
@@ -77,11 +77,11 @@ body {
 .logo .left:after,
 .logo .right:after {
   position: absolute;
-  bottom: -11px;
+  bottom: -12px;
   left: 0;
   content: "";
   width: 100%;
-  height: 21px;
+  height: 80px;
 }
 
 .logo .left,
@@ -98,7 +98,7 @@ body {
 }
 
 .logo .left span {
-  margin-right: -9px;
+  margin-right: -24px;
 }
 
 .logo .left,
@@ -107,7 +107,7 @@ body {
 }
 
 .logo .left:after {
-  -webkit-transform: skewY(5deg);
+  -webkit-transform: skewY(6deg);
 }
 
 .logo .right {
@@ -125,7 +125,7 @@ body {
 }
 
 .logo .right:after {
-  -webkit-transform: skewY(-5deg);
+  -webkit-transform: skewY(-6deg);
 }
 
 .logo span {
