@@ -55,7 +55,6 @@ body {
   padding: 10px;
   background: #fff;
   font-weight: bold;
-  overflow: hidden;
   -webkit-perspective: 150;
 }
 
@@ -67,11 +66,21 @@ body {
 .logo .right {
   position: relative;
   z-index: 2;
-  margin-top: 40px;
+  margin-top: 41px;
   color: #fff;
   font-size: 360px;
   font-weight: bold;
-  line-height: 330px;
+  line-height: 340px;
+}
+
+.logo .left:after,
+.logo .right:after {
+  position: absolute;
+  bottom: -11px;
+  left: 0;
+  content: "";
+  width: 100%;
+  height: 21px;
 }
 
 .logo .left,
@@ -83,23 +92,40 @@ body {
 }
 
 .logo .left {
-  background: #ba282e;
   text-align: right;
-  -webkit-transform: matrix(1, 0.1, 0, 1, 0, 0);
+  -webkit-transform: matrix(1, 0.13, 0, 1, 0, 0);
 }
 
 .logo .left span {
   margin-right: -9px;
 }
 
+.logo .left,
+.logo .left:after {
+  background: #ba282e;
+}
+
+.logo .left:after {
+  -webkit-transform: skewY(5deg);
+}
+
 .logo .right {
   background: #96262b;
   text-align: left;
-  -webkit-transform: matrix(1, -0.1, 0, 1, 0, 0);
+  -webkit-transform: matrix(1, -0.13, 0, 1, 0, 0);
+}
+
+.logo .right,
+.logo .right:after {
+  background: #96262b;
 }
 
 .logo .right span {
-  margin-left: -5px;
+  margin-left: -6px;
+}
+
+.logo .right:after {
+  -webkit-transform: skewY(-5deg);
 }
 
 .logo .back {
@@ -107,7 +133,7 @@ body {
   top: 16px;
   left: 0;
   background: #96262b;
-  -webkit-transform: matrix(1, -0.1, 0, 1, 0, 0);
+  -webkit-transform: matrix(1, -0.09, 0, 1, 0, 0);
 }
 
 
