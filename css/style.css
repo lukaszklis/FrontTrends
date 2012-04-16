@@ -94,7 +94,7 @@ body {
 
 .logo .left {
   text-align: right;
-  -webkit-transform: matrix(1, 0.13, 0, 1, 0, 0);
+  -webkit-transform: matrix(1, 0.13, 0, 1, 0, 0) translateZ(0);
 }
 
 .logo .left span {
@@ -112,7 +112,7 @@ body {
 
 .logo .right {
   text-align: left;
-  -webkit-transform: matrix(1, -0.13, 0, 1, 0, 0);
+  -webkit-transform: matrix(1, -0.13, 0, 1, 0, 0) translateZ(0);
 }
 
 .logo .right,
@@ -121,7 +121,7 @@ body {
 }
 
 .logo .right span {
-  margin-left: -6px;
+  margin-left: -9px;
 }
 
 .logo .right:after {
