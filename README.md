@@ -1,13 +1,13 @@
 ## Supported browsers
 
-At this moment the logo is being rendered properly in Webkit-based browsers (Google Chrome, Safari). Support for Firefox and Opera is going to be added soon.
+Currently supported:
+- webkit-based browsers (Chrome, Safari, Opera, etc.)
+- Firefox
 
-Sorry for that, if you want to help, feel free to contribute! :)
+## Kudos
 
-## Thanks
-
-Thanks to [Paweł Ludwiczak](http://twitter.com/ludwiczakpawel) for tips for perspective property.
+Thanks to [Paweł Ludwiczak](http://twitter.com/ludwiczakpawel) for a tip about `perspective` property.
 
 ## Questions?
 
-Feel free to contact me at lukasz [at] klis [dot] pl or [@LukaszKlis](http://twitter.com/lukaszklis).
+Feel free to contact me at lukasz [at] klis [dot] co or [@lukaszklis](http://twitter.com/lukaszklis).
